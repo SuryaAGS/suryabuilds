@@ -131,7 +131,7 @@ function Portfolio() {
     const body = `Name: ${form.name}%0D%0AEmail: ${form.email}%0D%0A%0D%0A${encodeURIComponent(
       form.message,
     )}`;
-    window.location.href = `mailto:suryaperabathula@gmail.com?subject=Portfolio%20Inquiry&body=${body}`;
+    window.location.href = `mailto:perabathulasurya58@gmail.com?subject=Portfolio%20Inquiry&body=${body}`;
   };
 
   return (
@@ -811,10 +811,10 @@ function Portfolio() {
 
             <div className="space-y-4">
               <ContactLink
-                href="mailto:suryaperabathula@gmail.com"
+                href="mailto:perabathulasurya58@gmail.com"
                 icon="📧"
                 label="Email"
-                value="suryaperabathula@gmail.com"
+                value="perabathulasurya58@gmail.com"
               />
               <ContactLink
                 href="https://github.com/SuryaAGS"
@@ -850,7 +850,7 @@ function Portfolio() {
                 <path d="M4.98 3.5a2.5 2.5 0 11.02 5 2.5 2.5 0 01-.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.1c.5-1 1.9-2 3.9-2 4.2 0 5 2.7 5 6.3V21h-4v-5.4c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9z" />
               </svg>
             </SocialIcon>
-            <SocialIcon href="mailto:suryaperabathula@gmail.com" label="Email">
+            <SocialIcon href="mailto:perabathulasurya58@gmail.com" label="Email">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="h-4 w-4">
                 <rect x="3" y="5" width="18" height="14" rx="2" />
                 <path d="M3 7l9 6 9-6" />
