@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Surya Perabathula — Product Builder & Developer" },
+      { title: "Surya Perabathula — AI Product Builder & Developer" },
       {
         name: "description",
         content:
